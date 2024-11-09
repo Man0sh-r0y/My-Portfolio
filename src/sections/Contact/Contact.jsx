@@ -8,7 +8,7 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  function emailSend(e) {
+  async function emailSend(e) {
     e.preventDefault();
 
     // EmailJS service details
@@ -23,14 +23,19 @@ function Contact() {
       message: message,
     };
 
+    const toastID = toast.loading("Loading...")
+
     emailjs.send(serviceID, templateID, templateParams, userID)
       .then((response) => {
+        toast.dismiss(toastID);
         toast.success("Message sent successfully!");
         console.log('Email sent successfully: ', response);
         setName('');
         setEmail('');
         setMessage('');
-      }, (error) => {
+      }) 
+      .catch((error) => {
+        toast.dismiss(toastID);
         toast.error("Failed to send message: " + error.text);
         console.log('Failed to send email: ', error);
       });
