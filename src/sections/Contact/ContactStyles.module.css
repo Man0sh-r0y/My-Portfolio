@@ -14,7 +14,7 @@ textarea,
 input:not([type='submit']) {
   height: 50px;
   padding-left: 16px;
-  width: 250px;
+  width: 80%;
 }
 
 textarea {
