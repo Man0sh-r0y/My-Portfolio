@@ -11,6 +11,10 @@
     max-width: 200px;
   }
 
+  img {
+    border-radius: 50%;
+  }
+
   span {
     display: flex;
     gap: 25px;
@@ -69,6 +73,7 @@
 
 .description {
   max-width: 24ch;
+  margin: 0 auto;
 }
 
 .info {
