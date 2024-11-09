@@ -16,11 +16,11 @@
     text-decoration: none;
     color: #222;
     transition: transform 200ms ease-in-out;
+    margin-bottom: 0.5rem;
   }
 
   a:hover {
     transform: scale(1.05);
-    margin-bottom: 0.5rem;
     transition: all;
     transition-duration: 300ms;
   }
