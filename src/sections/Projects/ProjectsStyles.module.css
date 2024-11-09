@@ -5,7 +5,7 @@
   /* padding: 0 2rem; */
 
   img {
-    max-width: 40rem;
+    max-width: 90%;
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 2rem;
@@ -36,5 +36,11 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0 1.9rem;
+  }
+
+  .container {
+    img {
+      max-width: 40rem;
+    }
   }
 }
