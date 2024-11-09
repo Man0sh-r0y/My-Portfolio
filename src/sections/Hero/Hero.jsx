@@ -42,7 +42,7 @@ function Hero() {
         </h1>
         <h2>Full Stack Developer</h2>
         <span>
-          <a href="https://x.com/Man0sh_r0y" target="_blank">
+          <a href="https://x.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
           <a href="https://github.com/Man0sh-r0y" target="_blank">
