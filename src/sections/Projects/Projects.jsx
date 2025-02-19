@@ -1,9 +1,9 @@
 import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
 import Project1 from "../../assets/EduHub.png";
-import Project2 from "../../assets/ShoppingCart.png";
-import Project3 from "../../assets/FindMyGit.png";
-import Project4 from "../../assets/BlogApp.png";
+import Project2 from "../../assets/TicTacToe.png";
+import Project3 from "../../assets/BlockWebsites.png";
+import Project4 from "../../assets/FindMyGit.png";
 
 function Projects() {
 
@@ -20,24 +20,24 @@ function Projects() {
         />
         <ProjectCard
           src={Project2}
-          link="https://github.com/Man0sh-r0y/Shopping-Cart-using-Redux"
-          h3="Shopping cart"
-          p="E-commerce Cart Application"
-          hostLink="https://shopping-cart-by-manash.vercel.app"
+          link="https://github.com/Man0sh-r0y/RealTimeMultiplayerTicTacToe"
+          h3="RealTime Tic-Tac-Toe"
+          p="Tic-Tac-Toe Game"
+          hostLink="https://github.com/Man0sh-r0y/RealTimeMultiplayerTicTacToe"
         />
         <ProjectCard
           src={Project3}
+          link="https://github.com/Man0sh-r0y/FocusShield"
+          h3="FocusShield"
+          p="Block Distracting Websites"
+          hostLink="https://github.com/Man0sh-r0y/FocusShield"
+        />
+        <ProjectCard
+          src={Project4}
           link="https://github.com/Man0sh-r0y/FindMyGit"
           h3="FindMyGit"
           p="Find Any Github User's data"
           hostLink="https://find-github-users-by-manash.vercel.app"
-        />
-        <ProjectCard
-          src={Project4}
-          link="https://github.com/Man0sh-r0y/BlogVista"
-          h3="BlogVista"
-          p="Static Blogging App UI"
-          hostLink="https://blog-website-by-manash.vercel.app"
         />
       </div>
     </section>
