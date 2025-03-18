@@ -3,7 +3,7 @@ import ProjectCard from '../../common/ProjectCard';
 import Project1 from "../../assets/EduHub.png";
 import Project2 from "../../assets/TicTacToe.png";
 import Project3 from "../../assets/BlockWebsites.png";
-import Project4 from "../../assets/FindMyGit.png";
+import Project4 from "../../assets/GIF.png";
 
 function Projects() {
 
@@ -23,7 +23,7 @@ function Projects() {
           link="https://github.com/Man0sh-r0y/RealTimeMultiplayerTicTacToe"
           h3="RealTime Tic-Tac-Toe"
           p="Tic-Tac-Toe Game"
-          hostLink="https://github.com/Man0sh-r0y/RealTimeMultiplayerTicTacToe"
+          hostLink="https://realtimemultiplayertictactoe.onrender.com/"
         />
         <ProjectCard
           src={Project3}
@@ -34,10 +34,10 @@ function Projects() {
         />
         <ProjectCard
           src={Project4}
-          link="https://github.com/Man0sh-r0y/FindMyGit"
-          h3="FindMyGit"
-          p="Find Any Github User's data"
-          hostLink="https://find-github-users-by-manash.vercel.app"
+          link="https://github.com/Man0sh-r0y/Random-GIF-Generator"
+          h3="GIFExplorer"
+          p="Search for any GIF"
+          hostLink="https://random-gif-generator-by-manash.vercel.app/"
         />
       </div>
     </section>
