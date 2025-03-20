@@ -88,8 +88,12 @@
 h2 {
   display: flex;
   flex-direction: row;
+  color: var(--role-text-color);
 }
 
+h1 {
+  color: var(--name-color);
+}
 
 
 @media (width >= 800px) {

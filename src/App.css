@@ -1,21 +1,25 @@
 :root {
   --background-color: #fff;
-  --btn-color: #0987f2;
+  --btn-color: #0e90d1;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+  --role-text-color: #0a056b;
+  --name-color: #0d29dd;
 }
 
 [data-theme='dark'] {
   --background-color: #222;
-  --btn-color: #fff;
+  --btn-color: #e718a5;
   --btn-text-color: #222;
   --project-card-bg: #fff;
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
+  --role-text-color: #f1e27f;
+  --name-color: #f56b0f;
 }
 
 body {
